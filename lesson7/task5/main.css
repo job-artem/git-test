@@ -31,7 +31,7 @@ input {
 }
 
 div p {
-    padding: 25px;
+    font-size: 25px;
 }
 
 input[type='text'] {
