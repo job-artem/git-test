@@ -9,3 +9,7 @@ div {
     margin: 50px 100px;
     background-color: bisque;
 }
+
+body {
+    font-size: 24px;
+}
