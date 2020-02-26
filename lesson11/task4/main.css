@@ -1,15 +1,22 @@
 .main-text {
     margin: 16px;
-    border-bottom: 1px dotted black;
     display: inline-block;
+    /* position: relative; */
+}
+
+.inner {
+    border-bottom: 1px dotted black;
+}
+
+.main-text:hover .tooltip {
+    display: block;
 }
 
 .tooltip {
+    display: none;
     background-color: gray;
     border-radius: 4px;
     padding: 8px;
-    display: inline-block;
-    position: relative;
-    bottom: -32px;
-    left: -116px;
+    position: absolute;
+    top: 40px;
 }
