@@ -1,0 +1,15 @@
+.main-text {
+    margin: 16px;
+    border-bottom: 1px dotted black;
+    display: inline-block;
+}
+
+.tooltip {
+    background-color: gray;
+    border-radius: 4px;
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    bottom: -40px;
+    left: -116px;
+}
