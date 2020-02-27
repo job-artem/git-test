@@ -3,15 +3,19 @@
 }
 
 html {
-    margin: 32px;
     font-family: Roboto, sans-serif;
     font-size: 18px;
+}
+
+section {
+    margin: 32px;
 }
 
 h1 {
     word-spacing: 20px;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
 }
 
 p {
