@@ -3,10 +3,13 @@
 }
 
 .image-container {
-    display: block;
-    margin: auto;
     margin-top: 50px;
     max-width: 100%;
+}
+
+.image {
+    display: block;
+    margin: auto;
     border-radius: 20px;
 }
 
