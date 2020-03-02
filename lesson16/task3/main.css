@@ -1,8 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 .checkbox {
     position: relative;
     padding-left: 35px;
     font-size: 24px;
     margin: 16px;
+    left: -128px;
 }
 
 input[type='checkbox'] {
