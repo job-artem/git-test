@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <form>
+        <div>
+            <label>Primary Language
+                <input type="text" name="primaryLanguage" value="HTML" disabled>
+            </label>
+        </div>
+        <div>
+            <label>Agree
+                <input type="checkbox" name="agree" unchecked>
+            </label>
+        </div>
+        <div>
+            <label>Like
+                <input type="checkbox" name="like" readonly>
+            </label>
+        </div>
+        <div>
+            <label>Color
+                <input type="color" name="favouriteColor" value='#ff7f50'>
+            </label>
+        </div>
+        <div>
+            <label>Birth Date
+                <input type="date" name="birthDate" value='2021-01-02'>
+            </label>
+        </div>
+        <div>
+            <label>DateTime Local
+                <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
+            </label>
+        </div>
+        <div>
+            <label>Email
+                <input type="email" name="email" placeholder="example@domain.com" required>
+            </label>
+        </div>
+        <div>
+            <label>Avatar
+                <input type="file" name="avatar" >
+            </label>
+        </div>
+        <div>
+            <label>Start Learning
+                <input type="month" name="startLearning" value="2020-01">
+            </label>
+        </div>
+        <div>
+            <label>Favourite Number
+                <input type="number" name="favouriteNumber" value="17">
+            </label>
+        </div>
+        <div>
+            <textarea name="story" cols="30" rows="5" placeholder="A long time ago..."></textarea>
+        </div>
+        <div>
+            <label>Password
+                <input type="password" name="password" value="secret">
+            </label>
+        </div>
+        <div class="languages">
+            <label>HTML
+                <input type="radio" name="language" value="html">
+            </label>
+
+            <label>CSS
+                <input type="radio" name="language" value="css" checked>
+            </label>
+
+            <label>JavaScript
+                <input type="radio" name="language" value="javascript">
+            </label>
+        </div>
+        <div>
+            <label>Learning Progress
+                <input type="range" name="learningProgress" value="30">
+            </label>
+        </div>
+        <div>
+            <select name="framework">
+                <option value="react">React</option>
+                <option value="jquery" selected>jQuery</option>
+                <option value="bootstrap">Bootstrap</option>
+            </select>
+        </div>
+        <div>
+            <label>
+                <input type="search" name="search" placeholder="Type first letters...">
+            </label>
+        </div>
+        <div>
+            <label>Lunch End
+                <input type="time" name="lunchEnd" value="14:01">
+            </label>
+        </div>
+        <div>
+            <label>Web Site
+                <input type="url" name="website" placeholder="https://website.com" required>
+            </label>
+        </div>
+        <div>
+            <label>Birth Week
+                <input type="week" name="birthWeek" value="2021-W51">
+            </label>
+        </div>
+        <button type="submit">Save</button>
+
+    </form>
+</body>
+
+</html>
