@@ -26,10 +26,6 @@
     vertical-align: middle;
 }
 
-.button1 {
-    line-height: 50px;
-}
-
 .button1:hover svg {
     fill: green;
 }
