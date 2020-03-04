@@ -10,6 +10,7 @@
     font-family: 'Corier New', Courier, monospace;
     font-weight: 700;
     cursor: pointer;
+    line-height: 50px;
 }
 
 .btn:hover {
@@ -19,10 +20,6 @@
 .button1 svg {
     width: 32px;
     height: 32px;
-    vertical-align: middle;
-}
-
-.button2 {
     vertical-align: middle;
 }
 
