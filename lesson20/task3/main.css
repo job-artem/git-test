@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-.body {}
-
 .container {
     align-items: center;
     justify-content: center;
