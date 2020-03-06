@@ -36,21 +36,24 @@ h1 {
 
 .navigation {
     width: 20%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    /* padding-left: 0.5em;
+    padding-right: 0.5em; */
+    padding: 0.5em;
 }
 
 .section {
     width: 60%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    /* padding-left: 0.5em;
+    padding-right: 0.5em; */
+    padding: 0.5em;
     font-size: 1.25em;
 }
 
 .news {
     width: 20%;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    /* padding-left: 0.5em;
+    padding-right: 0.5em; */
+    padding: 0.5em;
 }
 
 .units-list {
