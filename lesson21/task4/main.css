@@ -42,7 +42,7 @@ h1 {
 .section {
     width: 60%;
     padding: 0 0.5em;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .section__header {
@@ -76,6 +76,8 @@ h1 {
 .css-units {
     color: #8b0000;
     background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
 }
 
 .news {
