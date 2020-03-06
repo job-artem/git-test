@@ -12,10 +12,7 @@ h1 {
     text-align: center;
     color: white;
     background: linear-gradient(60deg, red, orange);
-    padding: 0.5em;
-}
-
-.header h1 {
+    padding: 1em;
     margin: 0;
 }
 
