@@ -36,7 +36,6 @@ h1 {
 
 .navigation {
     width: 20%;
-    padding: 0;
     padding: 0 0.5em;
 }
 
@@ -46,33 +45,13 @@ h1 {
     font-size: 1.25em;
 }
 
-.section__header {
-    font-size: 5vw;
-    text-align: center;
-}
-
-.nav-list {
+.news {
+    width: 20%;
     padding: 0 0.5em;
-    list-style-type: none;
 }
 
-.nav-list-item {
-    line-height: 2em;
-    height: 2em;
-    background-color: #808080;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-    color: white;
-    margin-bottom: 0.5em;
-}
-
-.nav-list-item a {
-    color: white;
-    text-decoration: none;
-    width: 100%;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+.units-list {
+    line-height: 1.75em;
 }
 
 .css-units {
@@ -82,7 +61,29 @@ h1 {
     font-weight: 700;
 }
 
-.news {
-    width: 20%;
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.nav-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list-item {
+    height: 2em;
+    background-color: #808080;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 0.5em;
     padding: 0 0.5em;
+}
+
+.nav-list-item a {
+    color: white;
+    text-decoration: none;
+    line-height: 2em;
 }
