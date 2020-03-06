@@ -57,7 +57,7 @@ h1 {
 }
 
 .nav-list-item {
-    line-height: 1.75em;
+    line-height: 2em;
     height: 2em;
     background-color: #808080;
     text-overflow: ellipsis;
