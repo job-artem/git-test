@@ -8,12 +8,13 @@ html {
     font-size: 16px;
 }
 
+.header {
+    background: linear-gradient(60deg, red, orange);
+}
+
 h1 {
     text-align: center;
     color: white;
-    background: linear-gradient(60deg, red, orange);
-    padding: 0.8em;
-    margin: 0;
 }
 
 .footer {
