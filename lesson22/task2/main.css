@@ -38,6 +38,7 @@ html {
     .navigation,
     .products_list {
         flex-grow: 1;
+        width: 50vw;
     }
 }
 
