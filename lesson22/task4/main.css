@@ -37,6 +37,7 @@ button {
 
 .navigation {
     width: 20%;
+    margin-left: 0.5em;
 }
 
 .nav-list {
@@ -49,7 +50,6 @@ button {
     color: white;
     height: 2em;
     margin-bottom: 0.5em;
-    margin-left: 0.5em;
 }
 
 .nav-list-item a {
