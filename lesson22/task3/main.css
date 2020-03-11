@@ -1,13 +1,9 @@
-* {
-    box-sizing: border-box;
-}
-
 main {
     display: flex;
     justify-content: center;
 }
 
-picture {
-    max-height: 100%;
+img {
+    max-width: 100%;
     height: auto;
 }
