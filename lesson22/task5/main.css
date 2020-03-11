@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana;
+    color: #555555;
+    font-size: 16px;
+}
+
+.header {
+    background: linear-gradient(60deg, red, orange);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: #e5e5e5;
+    padding: 0.5em;
+    margin-top: auto;
+    text-align: center;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+}
+
+.navigation {
+    width: 20%;
+    /* padding-left: 0.5em;
+    padding-right: 0.5em; */
+    padding: 0.5em;
+}
+
+.section {
+    width: 60%;
+    /* padding-left: 0.5em;
+    padding-right: 0.5em; */
+    padding: 0.5em;
+    font-size: 1.25em;
+}
+
+.section img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.news {
+    width: 20%;
+    /* padding-left: 0.5em;
+    padding-right: 0.5em; */
+    padding: 0.5em;
+}
+
+@media screen and (max-width: 599px) {
+    .main {
+        flex-direction: column;
+    }
+    .navigation,
+    .section,
+    .news {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        display: flex;
+    }
+    .navigation {
+        width: 20%;
+    }
+    .section {
+        width: 80%;
+    }
+    .news {
+        width: 100%;
+    }
+    .main {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .main {
+        flex-direction: row;
+    }
+    .navigation {
+        width: 20vw;
+    }
+    .section {
+        width: 60vw;
+    }
+    .news {
+        width: 20vw;
+    }
+}
+
+.units-list {
+    line-height: 1.75em;
+}
+
+.css-units {
+    color: #8b0000;
+    background-color: #e5e5e5;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.section__header {
+    font-size: 5vw;
+    text-align: center;
+}
+
+.nav-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list-item {
+    height: 2em;
+    background-color: #808080;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 0.5em;
+    padding: 0 0.5em;
+}
+
+.nav-list-item a {
+    color: white;
+    text-decoration: none;
+    line-height: 2em;
+}
