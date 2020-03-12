@@ -11,8 +11,10 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     @include for-landscape {
-        display: flex;
+        flex-direction: row;
     }
 }
 
