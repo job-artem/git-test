@@ -1,0 +1,19 @@
+$md: 600px;
+$lg: 900px;
+@mixin for-up-to-md {
+    @media screen and (max-width: $md-1) {
+        @content;
+    }
+}
+
+@mixin md-and-above {
+    @media screen and (min-width: $md) {
+        @content;
+    }
+}
+
+@mixin lg-and-above {
+    @media screen and (min-width: $lg) {
+        @content;
+    }
+}

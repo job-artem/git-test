@@ -1,0 +1,60 @@
+@import 'breakpoints.scss';
+.navigation {
+    background-color: #ff7f50;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include md-and-above {
+        width: 50%;
+    }
+    @include lg-and-above {
+        width: 33.33vw;
+    }
+}
+
+.products {
+    background-color: #006400;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include md-and-above {
+        width: 50%;
+    }
+    @include lg-and-above {
+        width: 33.33vw;
+    }
+}
+
+.news {
+    background-color: #0ff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include lg-and-above {
+        width: 33.33vw;
+    }
+}
+
+.text {
+    text-transform: lowercase;
+    font-family: Verdana;
+    padding: 8px;
+    background-color: #faebd7;
+    border-radius: 4px;
+}
+
+.container-nav-and-products {
+    @include md-and-above {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.container-all {
+    @include lg-and-above {
+        display: flex;
+    }
+}
